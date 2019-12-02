@@ -121,35 +121,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-
-#topbar {
-  padding: 0 0 10px 0;
-  font-size: 14px;
-  transition: all 0.5s;
-}
-
-#topbar .social-links {
-  text-align: right;
-}
-
-#topbar .social-links a {
-  color: #535074;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
-}
-
-#topbar .social-links a:hover {
-  color: #1bb1dc;
-}
-
-#topbar .social-links a:first-child {
-  border-left: 0;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 
@@ -256,10 +227,10 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
+/* .main-nav {
   /* Drop Down */
   /* Deep Drop Down */
-}
+/* } */ 
 
 .main-nav,
 .main-nav * {
@@ -576,14 +547,14 @@ h6 {
   transition: .5s;
 }
 
-/* Services Section
+/* Countries Section
 --------------------------------*/
 
-#services {
+#countries {
   padding: 60px 0 40px 0;
 }
 
-#services .box {
+#countries .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -595,12 +566,12 @@ h6 {
   text-align: center;
 }
 
-#services .box:hover {
+#countries .box:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#services .icon {
+#countries .icon {
   margin: 0 auto 15px auto;
   padding-top: 12px;
   display: inline-block;
@@ -610,31 +581,37 @@ h6 {
   height: 60px;
 }
 
-#services .icon i {
+#countries .icon i {
   font-size: 36px;
   line-height: 1;
 }
 
-#services .title {
+#countries .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#countries .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#countries .box:hover .title a {
   color: #1bb1dc;
 }
 
-#services .description {
+#countries .description {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
+
+#country {
+  max-height: 200px;
+}
+
+
 
 /* Why Us Section
 --------------------------------*/
@@ -688,45 +665,7 @@ h6 {
   color: #8a87b6;
 }
 
-/* Call To Action Section
---------------------------------*/
-
-#call-to-action {
-  background: #2d2b46;
-  background-size: cover;
-  padding: 40px 0;
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 3px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
-}
-
-/* Features Section
+/*  Section
 --------------------------------*/
 
 #features {
@@ -738,21 +677,21 @@ h6 {
   font-size: 24px;
 }
 
-/* Portfolio Section
+/* Sales Section
 --------------------------------*/
 
-#portfolio {
+#sales {
   padding: 60px 0;
 }
 
-#portfolio #portfolio-flters {
+#sales #sales-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#sales #sales-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -764,33 +703,33 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#sales #sales-flters li:hover,
+#sales #sales-flters li.filter-active {
   color: #1bb1dc;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#sales #sales-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-item {
+#sales .sales-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap {
+#sales .sales-item .sales-wrap {
   overflow: hidden;
   position: relative;
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover img {
+#sales .sales-item .sales-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info {
+#sales .sales-item .sales-wrap .sales-info {
   position: absolute;
   top: 0;
   right: 0;
@@ -818,7 +757,7 @@ h6 {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
+#sales .sales-item .sales-wrap .sales-info h4 {
   font-size: 22px;
   line-height: 1px;
   font-weight: 700;
@@ -826,15 +765,15 @@ h6 {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
+#sales .sales-item .sales-wrap .sales-info h4 a {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
+#sales .sales-item .sales-wrap .sales-info h4 a:hover {
   color: #1bb1dc;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
+#sales .sales-item .sales-wrap .sales-info p {
   padding: 0;
   margin: 0;
   color: #f8fcff;
@@ -843,8 +782,8 @@ h6 {
   text-transform: uppercase;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+#sales .sales-item .sales-wrap .sales-info .link-preview,
+#sales .sales-item .sales-wrap .sales-info .link-details {
   display: inline-block;
   line-height: 1;
   text-align: center;
@@ -855,28 +794,28 @@ h6 {
   margin: 10px 4px 0 4px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+#sales .sales-item .sales-wrap .sales-info .link-preview i,
+#sales .sales-item .sales-wrap .sales-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+#sales .sales-item .sales-wrap .sales-info .link-preview:hover,
+#sales .sales-item .sales-wrap .sales-info .link-details:hover {
   background: #42c3e8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#sales .sales-item .sales-wrap .sales-info .link-preview:hover i,
+#sales .sales-item .sales-wrap .sales-info .link-details:hover i {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover {
+#sales .sales-item .sales-wrap:hover {
   background: #282646;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
+#sales .sales-item .sales-wrap:hover .sales-info {
   opacity: 1;
 }
 
@@ -937,21 +876,21 @@ h6 {
   background-color: #1bb1dc;
 }
 
-/* Team Section
+/* states Section
 --------------------------------*/
 
-#team {
+#states {
   padding: 60px 0;
 }
 
-#team .member {
+#states .member {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
 
-#team .member .member-info {
+#states .member .member-info {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -973,48 +912,48 @@ h6 {
   background: rgba(29, 28, 41, 0.6);
 }
 
-#team .member .member-info-content {
+#states .member .member-info-content {
   transition: margin 0.2s;
   height: 40px;
   transition: height 0.4s;
 }
 
-#team .member:hover .member-info {
+#states .member:hover .member-info {
   transition: 0.4s;
 }
 
-#team .member:hover .member-info-content {
+#states .member:hover .member-info-content {
   height: 80px;
 }
 
-#team .member h4 {
+#states .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-#team .member span {
+#states .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#team .member .social {
+#states .member .social {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#states .member .social a {
   transition: none;
   color: #fff;
 }
 
-#team .member .social a:hover {
+#states .member .social a:hover {
   color: #1bb1dc;
 }
 
-#team .member .social i {
+#states .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }

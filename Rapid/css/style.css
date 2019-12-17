@@ -719,13 +719,13 @@ h6 {
 }
 
 #sales .sales-item .sales-wrap {
-  overflow: hidden;
   position: relative;
   margin: 0;
 }
 
 #sales .sales-item .sales-wrap:hover img {
   opacity: 0.4;
+  
   transition: 0.3s;
 }
 
@@ -743,15 +743,10 @@ h6 {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+ 
+  align-items: normal;
+  
+ 
   text-align: center;
   opacity: 0;
   transition: 0.2s linear;
@@ -763,6 +758,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 14px;
   padding-bottom: 0;
+  color: #fff;
 }
 
 #sales .sales-item .sales-wrap .sales-info h4 a {

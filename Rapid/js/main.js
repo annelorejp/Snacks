@@ -10,7 +10,7 @@
     }
   });
 
-  // Back to top button
+  // Back to top buttona
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -98,7 +98,7 @@
     time: 1000
   });
 
-  // Porfolio isotope and filter
+  // Porfolio isotope and filter (SALES SECTION)
   $(window).on('load', function () {
     var portfolioIsotope = $('.sales-container').isotope({
       itemSelector: '.sales-item'
@@ -120,13 +120,13 @@
   });
 
   // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
-    }
-  });
+  // $(".clients-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: true,
+  //   loop: true,
+  //   responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+  //   }
+  // });
 
 })(jQuery);
 

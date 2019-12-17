@@ -773,14 +773,6 @@ h6 {
   color: #1bb1dc;
 }
 
-#sales .sales-item .sales-wrap .sales-info p {
-  padding: 0;
-  margin: 0;
-  color: #f8fcff;
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-}
 
 #sales .sales-item .sales-wrap .sales-info .link-preview,
 #sales .sales-item .sales-wrap .sales-info .link-details {
